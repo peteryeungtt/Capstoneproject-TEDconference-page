@@ -4,6 +4,9 @@
     --color-primary: #272a31;
     --color-secondary: #d3d3d3;
     --color-accent: #ec5242;
+    --color-white: #ffffff;
+    ---color-gray: #868686;
+
 }
 
 *,
@@ -23,14 +26,229 @@ ul li {
     list-style: none;
 }
 
-img {
-    width: 100%;
-}
-
 a {
     text-decoration: none;
 }
 
-p {
+.topmenu_container {
+    width: 100%;
+    background-color: #3e3e3e;
+}
+
+.top-menu-item {
+    display: none;
+}
+
+.ted-logo-container {
+    display: none;
+}
+
+.nav-header {
+    display: none;
+}
+
+.mobile-navbar {
+    height: 6.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 4px #00000056;
+}
+
+.mobile-ted-logo {
+    width: 22rem;
+}
+
+.mobile-hamburger-menu {
+    position: absolute;
+    top: 1.5rem;
+    left: 2.5rem;
+    width: 3.5rem;
+}
+
+@media only screen and (min-width: 1006px) {
+    .nav-menu-item {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-navbar {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .mobile-hamburger-menu {
+        visibility: hidden;
+    }
+
+    .top-menu-items {
+        display: flex;
+        height: 3rem;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 19rem;
+    }
+
+    .top-menu-item {
+        margin-left: 3rem;
+        font-family: var(--font-lato);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.4px;
+        display: flex;
+        align-items: center;
+    }
+
+    .top-menu-item a {
+        color: var(--color-white);
+    }
+
+    .nav-header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 19rem;
+        height: 7.5rem;
+
+    }
+
+    .ted-logo-container {
+        display: flex;
+        position: absolute;
+        top: 5rem;
+        left: 1.5rem;
+    }
+
+    .ted-logo {
+        width: 22rem;
+    }
+
+    .nav-menu-items {
+        display: flex;
+        margin-right: 2rem;
+    }
+
+    .nav-menu-item {
+        margin-left: 2rem;
+        font-family: var(--font-lato);
+        font-size: 1.4rem;
+        font-weight: 800;
+        line-height: 1.7rem;
+        letter-spacing: 0em;
+        text-align: left;
+        align-self: center;
+        flex-shrink: 1;
+    }
+
+    .nav-menu-item a {
+        color: var(---color-gray);
+    }
+
+    .nav-menu-item a:hover {
+        color: var(--color-accent);
+    }
+
+    .campaign {
+        border: 5px solid #ec5242;
+        width: 14rem;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-inline: 15px;
+
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+    .ted-logo-container {
+        left: 5rem;
+    }
+
+    .nav-menu-items {
+        display: flex;
+        margin-right: 7em;
+    }
+
+    .nav-menu-item {
+        margin-left: 2rem;
+
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .ted-logo-container {
+        left: 10rem;
+    }
+
+    .nav-menu-items {
+        margin-right: 10rem;
+    }
+
+    .nav-menu-item {
+        margin-left: 4rem;
+
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .ted-logo-container {
+        left: 16rem;
+    }
+
+    .nav-menu-items {
+        margin-right: 16rem;
+    }
+
+    .nav-menu-item {
+        margin-left: 6rem;
+
+    }
+}
+
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    background-color: #3e3e3e;
+    height: 100vh;
+}
+
+.menu-style-mobile {
+    margin-top: 3rem;
     font-family: var(--font-lato);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(---color-gray);
+    border-bottom: 1px solid #ec5242;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    width: 100%;
+}
+
+.menu-style-mobile:hover {
+    color: #ec5242;
+}
+
+.hidden {
+    display: none;
+}
+
+.close-menu-width {
+    width: 5rem;
+}
+
+#mobile-close-icon-container {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-bottom: -5rem;
 }

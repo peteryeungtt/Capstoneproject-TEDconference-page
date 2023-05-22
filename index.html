@@ -12,8 +12,56 @@
 </head>
 
 <body>
-    <p>Lato
-    </p>
+    <header>
+        <nav>
+            <div class="topmenu_container">
+                <nav class="top_menu">
+                    <ul class="top-menu-items">
+                        <li class="top-menu-item"><a href=""><img src="/images/facebook.png"
+                                    alt="Ted facebook page" /></a>
+                        </li>
+                        <li class="top-menu-item"><a href=""><img src=" /images/twitter.png"
+                                    alt="Ted Twitter page" /></a>
+                        </li>
+                        <li class="top-menu-item"><a href="" target=" _blank">English</a></li>
+                        <li class="top-menu-item"><a href="" target=" _blank">My Page</a></li>
+                        <li class="top-menu-item"><a href="" target=" _blank">logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+        <div class="ted-logo-container">
+            <a href="./index.html"><img class="ted-logo" src="./images/TED_logo.svg" alt="Ted logo"></a>
+        </div>
+        <nav class="nav-header">
+            <div class="nav-menu">
+                <ul class="nav-menu-items">
+                    <li class="nav-menu-item"><a href="./about.html">About</a></li>
+                    <li class="nav-menu-item"><a href="#">Schedule</a></li>
+                    <li class="nav-menu-item"><a href="#">Join</a></li>
+                    <li class="nav-menu-item"><a href="#">Sponsor</a></li>
+                    <li class="nav-menu-item"><a href="#">News</a></li>
+                    <li class="nav-menu-item"><a class="campaign" href="#">TED Campaign</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="mobile-navbar">
+            <a href="./index.html"><img class="mobile-ted-logo" src="./images/TED_logo.svg" alt="Ted logo"></a>
+        </nav>
+        <div></div>
+        <img class="mobile-hamburger-menu" src=" ./images/mobile_menu.png" alt="hamburger-menu">
+        <div class="mobile-menu hidden" onclick="closeClick()">
+            <div id="mobile-close-icon-container"><img class="close-menu-width" id="closeIcon" src="./images/close.svg"
+                    alt="Close Menu" /></div>
+            <a class="menu-style-mobile" id="item1" onclick="closeClick()" ref="./about.html">About</a>
+            <a class="menu-style-mobile" id="item2" onclick="closeClick()" href="#">Schedule</a>
+            <a class="menu-style-mobile" id="item3" onclick="closeClick()" href="#">Join</a>
+            <a class="menu-style-mobile" id="item4" onclick="closeClick()" href="#">Sponsor</a>
+            <a class="menu-style-mobile" id="item5" onclick="closeClick()" hhref="#">News</a>
+            <a class="menu-style-mobile" id="item6" onclick="closeClick()" href="#">TED Campaign</a>
+        </div>
+    </header>
     <script src="index.js"></script>
 </body>
 

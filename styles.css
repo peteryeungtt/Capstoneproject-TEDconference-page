@@ -597,10 +597,44 @@ a {
 }
 
 @media screen and (min-width: 1000px) {
+    .speaker {
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
 
     .speaker-container {
         padding-left: 10%;
         padding-right: 10%;
-
     }
+
+    .main-speaker-title {
+        font-size: 2.6rem;
+    }
+}
+
+/* Partners */
+.partner {
+    text-align: center;
+    background-color: var(--color-primary);
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+}
+
+.main-partner-title {
+    font-family: var(--font-lato);
+    color: var(--color-white);
+    font-size: 2.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logos img {
+    width: 80%;
+    margin: 3.5rem;
 }

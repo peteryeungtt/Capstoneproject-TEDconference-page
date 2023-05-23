@@ -17,10 +17,10 @@
             <div class="topmenu_container">
                 <nav class="top_menu">
                     <ul class="top-menu-items">
-                        <li class="top-menu-item"><a href=""><img src="/images/facebook.png"
+                        <li class="top-menu-item"><a href=""><img src="./images/facebook.png"
                                     alt="Ted facebook page" /></a>
                         </li>
-                        <li class="top-menu-item"><a href=""><img src=" /images/twitter.png"
+                        <li class="top-menu-item"><a href=""><img src="./images/twitter.png"
                                     alt="Ted Twitter page" /></a>
                         </li>
                         <li class="top-menu-item"><a href="" target=" _blank">English</a></li>
@@ -45,7 +45,6 @@
                 </ul>
             </div>
         </nav>
-
         <nav class="mobile-navbar">
             <a href="./index.html"><img class="mobile-ted-logo" src="./images/TED_logo.svg" alt="Ted logo"></a>
         </nav>
@@ -54,25 +53,68 @@
         <div class="mobile-menu hidden" onclick="closeClick()">
             <div id="mobile-close-icon-container"><img class="close-menu-width" id="closeIcon" src="./images/close.svg"
                     alt="Close Menu" /></div>
-            <a class="menu-style-mobile" onclick="closeClick()" ref="./about.html">About</a>
+            <a class="menu-style-mobile" onclick="closeClick()" href="./about.html">About</a>
             <a class="menu-style-mobile" onclick="closeClick()" href="#">Schedule</a>
             <a class="menu-style-mobile" onclick="closeClick()" href="#">Join</a>
             <a class="menu-style-mobile" onclick="closeClick()" href="#">Sponsor</a>
-            <a class="menu-style-mobile" onclick="closeClick()" hhref="#">News</a>
+            <a class="menu-style-mobile" onclick="closeClick()" href="#">News</a>
             <a class="menu-style-mobile" onclick="closeClick()" href="#">TED Campaign</a>
         </div>
     </header>
+
     <section class="hero-container">
         <h1 class="hero-greeting">"Hello! Your Ideas is worth spreading"</h1>
         <h2 class="hero-title">TED Global Summit 2023</h2>
-        <p class="hero-descr">Join us in New York. Every year, TED hosts conferences to bring together a group of expert
-            thinkers and doers across a wide range of fields to help share new ideas. We’re joined by prominent
-            academics, educators, researchers, philanthropists, environmentalists, scientists, technologists, artists,
-            activists and more. Come and attend our 2023 conference. Tickets are on available now!</p>
+        <p class="hero-descr">Join us in New York. This year, TED will host conferences to bring together a group of
+            expert thinkers and doers across a wide range of fields to help share new ideas. Were are excited to
+            introduce you to our prominent academics, educators, researchers, philanthropists, environmentalists,
+            scientists, technologists, artists, activists and more. Come and attend our 2023 conference. Tickets are on
+            available now!</p>
         <p class="hero-date">
             2023.11.10(FRI) ~ 12(SU)
         </p>
         <p class="hero-location">@ Madison Square Garden, New York</p>
+    </section>
+
+    <section class="main-program" id="program">
+        <div class="wrapper">
+            <div class="program-container">
+                <div class="program-title flex-container">
+                    <h3 class="main-program-title">Main Program</h3>
+                    <div class="orange-line"></div>
+                </div>
+                <div class="program-categories">
+                    <div class="program-categories-details flex-container">
+                        <img src="images/program_icon_01.png" alt="program-ico">
+                        <span>Lecture</span>
+                        <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+                    </div>
+                    <div class="program-categories-details flex-container">
+                        <img src="images/program_icon_02.png" alt="program-ico">
+                        <span>Exhibition</span>
+                        <p>Appreciate various ideas from our international speakers, organized Madison Square Garden.
+                        </p>
+                    </div>
+                    <div class="program-categories-details flex-container">
+                        <img src="images/program_icon_03.png" alt="program-ico">
+                        <span>Forum</span>
+                        <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
+                    </div>
+                    <div class="program-categories-details flex-container">
+                        <img src="images/program_icon_04.png" alt="program-ico">
+                        <span>Workshop</span>
+                        <p>Try creating your own work using open source license rather than just watching at it.</p>
+                    </div>
+                    <div class="program-categories-details flex-container">
+                        <img src="images/program_icon_05.png" alt="program-ico">
+                        <span>Ignite</span>
+                        <p>Get opportunities to network with affiliates around the world, also after the summit.</p>
+                    </div>
+                </div>
+                <a class="btn-mobile-program">SEE THE WHOLE PROGRAM</a>
+                <button type="button" class="btn-program">Join Ted Global Summit 2023</button>
+            </div>
+        </div>
     </section>
     <script src="index.js"></script>
 </body>

@@ -763,6 +763,10 @@ a {
         width: 40rem;
     }
 
+    .line-width {
+        width: 2.5rem;
+    }
+
     .hide-largescreen {
         display: none;
     }
@@ -793,36 +797,62 @@ a {
     .margin-spacing {
         margin-top: 5rem;
     }
+}
 
-    .main-sec-heading-about {
-        color: #ec5242;
+/* About section 1 */
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding: 4rem 0;
+}
+
+.section1-title {
+    font-family: var(--font-lato);
+    font-size: 3rem;
+    color: var(--color-primary);
+    text-align: center;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+
+.line-widthmobile {
+    width: 2rem;
+}
+
+.section1-descr {
+    font-family: var(--font-lato);
+    font-size: 1.6rem;
+    color: var(--color-gray-text);
+    font-weight: 600;
+    text-align: center;
+    line-height: 2.5rem;
+    width: 80%;
+    margin: 1rem 3rem;
+}
+
+.ted-summitlogo {
+    border: 2px solid #cdcdcd;
+    margin-top: 2rem;
+    width: 85%;
+}
+
+@media (min-width: 768px) {
+    .section1-title {
         font-size: 4rem;
-        text-align: center;
-        font-weight: 700;
-        width: 60%;
-        margin: 0 auto;
+        width: auto;
+        margin-top: 1.5rem;
     }
 
-    .main-par-about {
-        color: #272a31;
-        width: 90%;
-        text-align: center;
-        padding: 20px;
-        margin: 30px auto;
-        background-color: white;
-        border: 1px solid #d3d3d3;
+    .section1-descr {
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        width: 61rem;
     }
 
-
-    .contact-us {
-        color: #272a31;
-        width: 70%;
-        text-align: center;
-        margin: 10px auto;
-    }
-
-    .email-id {
-        color: #272a31;
-        text-align: center;
+    .ted-summitlogo {
+        width: max-content;
     }
 }

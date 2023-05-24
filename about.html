@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="topmenu_container">
+                <nav class="top_menu">
+                    <ul class="top-menu-items">
+                        <li class="top-menu-item"><a href=""><img src="./images/facebook.png"
+                                    alt="Ted facebook page" /></a>
+                        </li>
+                        <li class="top-menu-item"><a href=""><img src="./images/twitter.png"
+                                    alt="Ted Twitter page" /></a>
+                        </li>
+                        <li class="top-menu-item"><a href="" target=" _blank">English</a></li>
+                        <li class="top-menu-item"><a href="" target=" _blank">My Page</a></li>
+                        <li class="top-menu-item"><a href="" target=" _blank">logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+        <div class="ted-logo-container">
+            <a href="./index.html"><img class="ted-logo" src="./images/TED_logo.svg" alt="Ted logo"></a>
+        </div>
+        <nav class="nav-header">
+            <div class="nav-menu">
+                <ul class="nav-menu-items">
+                    <li class="nav-menu-item"><a href="./about.html">About</a></li>
+                    <li class="nav-menu-item"><a href="#">Schedule</a></li>
+                    <li class="nav-menu-item"><a href="#">Join</a></li>
+                    <li class="nav-menu-item"><a href="#">Sponsor</a></li>
+                    <li class="nav-menu-item"><a href="#">News</a></li>
+                    <li class="nav-menu-item"><a class="campaign" href="#">TED Campaign</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="mobile-navbar">
+            <a href="./index.html"><img class="mobile-ted-logo" src="./images/TED_logo.svg" alt="Ted logo"></a>
+        </nav>
+        <div></div>
+        <img class="mobile-hamburger-menu" src=" ./images/mobile_menu.png" alt="hamburger-menu">
+        <div class="mobile-menu hidden" onclick="closeClick()">
+            <div id="mobile-close-icon-container"><img class="close-menu-width" id="closeIcon" src="./images/close.svg"
+                    alt="Close Menu" /></div>
+            <a class="menu-style-mobile" onclick="closeClick()" href="./about.html">About</a>
+            <a class="menu-style-mobile" onclick="closeClick()" href="#">Schedule</a>
+            <a class="menu-style-mobile" onclick="closeClick()" href="#">Join</a>
+            <a class="menu-style-mobile" onclick="closeClick()" href="#">Sponsor</a>
+            <a class="menu-style-mobile" onclick="closeClick()" href="#">News</a>
+            <a class="menu-style-mobile" onclick="closeClick()" href="#">TED Campaign</a>
+        </div>
+    </header>
+
+    <main class="hero-container padding-bottom">
+        <div class="flex-center">
+            <h1 class="hero-greeting hide-largescreen">"Hello! Your Ideas is worth spreading"</h1>
+            <div>
+                <h2 class="hero-title-about center-text  bigger-text width-adjust">TED Global Summit 2023</h1>
+            </div>
+            <p class="hero-descr white-background center-text hide-largescreen">
+                The Global Summit brings together the community of
+                experts, academics, and activists who comprise the Creative Commons affiliate network in a different
+                country every two years.
+                This year, we hope to expand our invitation list including organizations and individuals.
+            </p>
+            <p class="hero-descr white-background center-text padding-hero smaller-text hidden show-largescreen">
+                The Global Summit brings together the community of experts, academics, and activists who comprise
+                the Creative Commons affiliate network in a different country every two years.
+                This year, we hope to expand our invitation list including organizations and individuals who want to
+                work with us on shared projects that advance the cause of the Commons, free culture and open
+                knowledge.
+                So if you're active and engaged in the worlds of open content and knowledge - free software
+                advocates, wikipedians, Open knowledge, galleries, libraries, museums, archives, governments and
+                foundations, lawyers, and activists - we hope you'll consider joining us this year to build a
+                stronger, more vibrant commons together
+            </p>
+            <p class="contact-us-about margin-spacing">
+                Do you have any further questions about Ted Global Summit 2023? </p>
+            <a href="#" class="contact-email email-margintop">tedglobalsummit@ted.org </a>
+        </div>
+    </main>
+
+    <footer class="footer footer-dark">
+        <img class="footer-ted-logo" src="./images/Footer_Ted_logo.png" alt="logo">
+        <div class="footer-text">
+            <span class="footer-copyright footer-text-white ">2023 Ted Global of Canada.</span>
+            <span class="footer-copyright footer-text-white ">Some Right Reserved.</span>
+            <span class="footer-copyright footer-text-white  hidden">All content on the website is licensed under a ed
+                Global 3.1 Canada
+                license</span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

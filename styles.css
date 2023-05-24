@@ -6,6 +6,9 @@
     --color-accent: #ec5242;
     --color-white: #ffffff;
     ---color-gray: #868686;
+    --color-gray-text: #7a7a7a;
+    ;
+
 
 }
 
@@ -286,21 +289,22 @@ a {
     font-size: 4.5rem;
     font-family: var(--font-lato);
     font-weight: 900;
-    line-height: 5.5rem;
+    line-height: 4.5rem;
     width: 100%;
+    margin-top: 1.3rem;
     margin-bottom: 1.8rem;
 }
 
 .hero-descr {
     font-family: var(--font-lato);
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     line-height: 3rem;
-    color: #4e4e50;
+    font-weight: 700;
+    color: var(--color-gray-text);
     border: 4px solid #ffff;
-    background-color: #F7F7F7;
+    background-color: #f7f7f7;
     width: 100%;
-    padding: 1rem;
-
+    padding: 2rem;
 }
 
 .hero-date {
@@ -340,7 +344,7 @@ a {
         margin-top: 3rem;
         width: 80%;
         font-size: 1.8rem;
-        line-height: 3rem;
+        line-height: 2.5rem;
     }
 
     .hero-date {
@@ -654,7 +658,7 @@ a {
 }
 
 .footer-ted-logo {
-    width: 15rem;
+    width: 14rem;
 }
 
 .footer-copyright {
@@ -664,9 +668,17 @@ a {
     font-weight: 700;
 }
 
+.footer-dark {
+    background-color: var(--color-primary);
+}
+
+.footer-text-white {
+    color: var(--color-white)
+}
+
 @media screen and (min-width: 500px) {
     .footer-ted-logo {
-        width: 22rem;
+        width: 14rem;
     }
 
     .footer-copyright {
@@ -682,5 +694,135 @@ a {
         line-height: 2.8rem;
         display: flex;
 
+    }
+}
+
+/* About-Main */
+.main-container {
+    background-image: url("./images/mobile_intro_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 25px;
+    padding-top: 70px;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.hero-title-about {
+    color: #ec5242;
+    background-clip: text;
+    font-size: 4.5rem;
+    font-family: var(--font-lato);
+    color: var(--color-accent);
+    font-weight: 900;
+    line-height: 4.5rem;
+    width: 100%;
+    margin-top: 1.3rem;
+    margin-bottom: 1.8rem;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.contact-us-about {
+    font-family: var(--font-lato);
+    font-size: 1.6rem;
+    color: var(--color-gray-text);
+    font-weight: 600;
+    line-height: 2.5rem;
+    margin-top: 2rem;
+
+}
+
+.contact-email {
+    font-family: var(--font-lato);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    text-decoration: #7a7a7a underline;
+    margin-top: 2rem;
+}
+
+.padding-bottom {
+    padding-bottom: 6rem;
+}
+
+@media (min-width: 768px) {
+
+    .width-adjust {
+        width: 40rem;
+    }
+
+    .hide-largescreen {
+        display: none;
+    }
+
+    .show-largescreen {
+        display: flex;
+    }
+
+    .padding-hero {
+        padding: 2rem 4rem
+    }
+
+    .smaller-text {
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+
+    .bigger-text {
+        font-size: 6rem;
+        line-height: 6rem;
+        font-weight: 900;
+    }
+
+    .email-margintop {
+        margin-top: 0.5rem;
+    }
+
+    .margin-spacing {
+        margin-top: 5rem;
+    }
+
+    .main-sec-heading-about {
+        color: #ec5242;
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 700;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .main-par-about {
+        color: #272a31;
+        width: 90%;
+        text-align: center;
+        padding: 20px;
+        margin: 30px auto;
+        background-color: white;
+        border: 1px solid #d3d3d3;
+    }
+
+
+    .contact-us {
+        color: #272a31;
+        width: 70%;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .email-id {
+        color: #272a31;
+        text-align: center;
     }
 }

@@ -97,7 +97,6 @@ The user can run npm install to get the dependencies of the project
 
 To run the project, execute the following command:
 The user should make use of live server on vs code or open the index file directly
-```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

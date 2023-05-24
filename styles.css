@@ -412,8 +412,8 @@ a {
   font-family: var(--font-lato);
   background-color: var(--color-accent);
   color: var(--color-white);
-  font-size: 01em;
-  width: 70%;
+  font-size: 1em;
+  width: 85%;
   height: 4em;
   margin-block: 2em;
   border: none;

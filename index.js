@@ -1,5 +1,5 @@
 // Mobile Menu
-const hambugeIcon = document.querySelector('.mobile-hamburger-menu');
+const hambugerIcon = document.querySelector('.mobile-hamburger-menu');
 const closeIcon = document.getElementById('closeIcon');
 const mobileMenu = document.querySelector('.mobile-menu');
 

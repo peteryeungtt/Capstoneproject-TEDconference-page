@@ -226,10 +226,6 @@ a {
     left: 10rem;
   }
 
-  .nav-menu-items {
-    margin-right: 15rem;
-  }
-
   .nav-menu-item {
     margin-left: 4rem;
   }
@@ -241,7 +237,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1230px) {
   .ted-logo-container {
     left: 16rem;
   }
@@ -604,6 +600,7 @@ a {
 .logos {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   padding: 0 2rem;
   margin-top: 4rem;
